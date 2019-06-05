@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="h2_embedded-1642cc8e1f9-55eaa2afcfede849" provider="generic" driver="h2_embedded" name="jdbc:h2:mem:testdb" save-password="true" show-system-objects="true" show-util-objects="true" read-only="true">
+		<connection server="" database="testdb" url="jdbc:h2:mem:testdb" user="sa" type="dev">
+			<bootstrap defaultObject="INFORMATION_SCHEMA"/>
+		</connection>
+		<description>test</description>
+	</data-source>
+	<data-source id="h2_embedded-16430b42462-3bcb8823927f762" provider="generic" driver="h2_embedded" name="H2 - PRODUCT_CATEGORIES_SCHEMA" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="testdb/PRODUCT_CATEGORIES_SCHEMA" url="jdbc:h2:mem:testdb/PRODUCT_CATEGORIES_SCHEMA" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-16430b5901f-6d6c6da1445e2afe" provider="generic" driver="h2_embedded" name="H2 - PRODUCT_CATEGORIES_SCHEMA" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="testdb/PRODUCT_CATEGORIES_SCHEMA" url="jdbc:h2:mem:testdb/PRODUCT_CATEGORIES_SCHEMA" user="sa" type="dev"/>
+		<description>development testing</description>
+	</data-source>
+	<data-source id="h2_embedded-16430b8f4c8-181741aa4bfabf4f" provider="generic" driver="h2_embedded" name="H2 - PRODUCT_CATEGORIES_SCHEMA" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="testdb/PRODUCT_CATEGORIES_SCHEMA" url="jdbc:h2:mem:testdb/PRODUCT_CATEGORIES_SCHEMA" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-1643c9f2661-31cc421d6985a35a" provider="generic" driver="h2_embedded" name="H2 - testdb" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="testdb" url="jdbc:h2:mem:testdb" user="sa" type="dev"/>
+	</data-source>
+	<data-source id="h2_embedded-1643ca11dea-627f442d11bc89ae" provider="generic" driver="h2_embedded" name="H2 - testdb" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="testdb" url="jdbc:h2:mem:testdb" user="sa" type="dev"/>
+	</data-source>
+	<filters/>
+</data-sources>
